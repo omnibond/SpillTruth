@@ -1,0 +1,46 @@
+{
+  "admin": {
+    "ctime": 1568314634,
+    "mtime": 1568314634,
+    "users": [
+      "778bf631-c24c-41cf-8857-8348ed3edbf7"
+    ],
+    "cgroups": [
+      "all"
+    ]
+  },
+  "ugroup1": {
+    "ctime": 1568314820,
+    "mtime": 1568314820,
+    "users": [
+      "778bf631-c24c-41cf-8857-8348ed3edbf7",
+      "8b1a5b3d-bb3b-4b36-b8ad-487a7d8b8897"
+    ],
+    "cgroups": [
+      "cgroup1"
+    ]
+  },
+  "ugroup2": {
+    "ctime": 1568314943,
+    "mtime": 1568314943,
+    "users": [
+      "778bf631-c24c-41cf-8857-8348ed3edbf7",
+      "b96df7b0-9b01-416f-9395-52ce858e32af"
+    ],
+    "cgroups": [
+      "cgroup2"
+    ]
+  },
+  "ugroup3": {
+    "ctime": 1568314993,
+    "mtime": 1568314993,
+    "users": [
+      "8b1a5b3d-bb3b-4b36-b8ad-487a7d8b8897",
+      "b96df7b0-9b01-416f-9395-52ce858e32af",
+      "7bab0ca4-5152-4b76-867a-f303e16ada7f"
+    ],
+    "cgroups": [
+      "cgroup3"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "all": {
+    "ctime": 1568316222,
+    "mtime": 1568316222,
+    "cameras": [
+      "1d94d55e0df149febaaf6e4e66bc30e6",
+      "b2e1684c6b7c448d995cde4da7d93270",
+      "6a447de9d10547bda7be621e3f13d37b",
+      "3613b943dcd64811a22c7877b4d05417",
+      "0b6995f3ecda4b9a9ef6b23085887790"
+    ]
+  },
+  "cgroup1": {
+    "ctime": 1568316222,
+    "mtime": 1568316222,
+    "cameras": [
+      "1d94d55e0df149febaaf6e4e66bc30e6",
+      "b2e1684c6b7c448d995cde4da7d93270"
+    ]
+  },
+  "cgroup2": {
+    "ctime": 1568316222,
+    "mtime": 1568316222,
+    "cameras": [
+      "6a447de9d10547bda7be621e3f13d37b",
+      "3613b943dcd64811a22c7877b4d05417",
+      "0b6995f3ecda4b9a9ef6b23085887790"
+    ]
+  },
+  "cgroup3": {
+    "ctime": 1568316222,
+    "mtime": 1568316222,
+    "cameras": [
+      "1d94d55e0df149febaaf6e4e66bc30e6",
+      "6a447de9d10547bda7be621e3f13d37b",
+      "0b6995f3ecda4b9a9ef6b23085887790"
+    ]
+  }
+}

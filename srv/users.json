@@ -1,0 +1,135 @@
+{
+  "778bf631-c24c-41cf-8857-8348ed3edbf7": {
+    "username": "spill",
+    "first_name": "spill",
+    "last_name": "truth",
+    "ctime": 1568313290,
+    "mtime": 1568313290,
+    "last_login": 1568313290,
+    "monthly_logins": 5,
+    "favorites": {
+      "fgroup1": {
+        "ctime": 1571847667,
+        "mtime": 1571847667,
+        "color": "red",
+        "cameras": [
+          "6a447de9d10547bda7be621e3f13d37b",
+          "3613b943dcd64811a22c7877b4d05417",
+          "0b6995f3ecda4b9a9ef6b23085887790"
+        ]
+      },
+      "fgroup2": {
+        "ctime": 1571847667,
+        "mtime": 1571847667,
+        "color": "green",
+        "cameras": [
+          "1d94d55e0df149febaaf6e4e66bc30e6",
+          "6a447de9d10547bda7be621e3f13d37b",
+          "0b6995f3ecda4b9a9ef6b23085887790"
+        ]
+      },
+      "fgroup3": {
+        "ctime": 1571847667,
+        "mtime": 1571847667,
+        "color": "blue",
+        "cameras": [
+          "1d94d55e0df149febaaf6e4e66bc30e6",
+          "b2e1684c6b7c448d995cde4da7d93270"
+        ]
+      }
+    },
+    "ugroups": [
+      "admin",
+      "ugroup1",
+      "ugroup2"
+    ]
+  },
+  "8b1a5b3d-bb3b-4b36-b8ad-487a7d8b8897": {
+    "username": "dustin",
+    "first_name": "Dustin",
+    "last_name": "Evans",
+    "ctime": 1568314052,
+    "mtime": 1568314052,
+    "monthly_logins": 3,
+    "favorites": {
+      "fgroup1": {
+        "ctime": 1571847667,
+        "mtime": 1571847667,
+        "color": "red",
+        "cameras": [
+          "6a447de9d10547bda7be621e3f13d37b",
+          "3613b943dcd64811a22c7877b4d05417",
+          "0b6995f3ecda4b9a9ef6b23085887790"
+        ]
+      },
+      "fgroup3": {
+        "ctime": 1571847667,
+        "mtime": 1571847667,
+        "color": "blue",
+        "cameras": [
+          "1d94d55e0df149febaaf6e4e66bc30e6",
+          "b2e1684c6b7c448d995cde4da7d93270"
+        ]
+      }
+    },
+    "ugroups": [
+      "ugroup1",
+      "ugroup3"
+    ]
+  },
+  "b96df7b0-9b01-416f-9395-52ce858e32af": {
+    "username": "boyd",
+    "first_name": "Boyd",
+    "last_name": "Wilson",
+    "ctime": 1569361213,
+    "mtime": 1569361213,
+    "monthly_logins": 1,
+    "favorites": {
+      "fgroup2": {
+        "ctime": 1571847667,
+        "mtime": 1571847667,
+        "color": "green",
+        "cameras": [
+          "1d94d55e0df149febaaf6e4e66bc30e6",
+          "6a447de9d10547bda7be621e3f13d37b",
+          "0b6995f3ecda4b9a9ef6b23085887790"
+        ]
+      },
+      "fgroup3": {
+        "ctime": 1571847667,
+        "mtime": 1571847667,
+        "color": "blue",
+        "cameras": [
+          "1d94d55e0df149febaaf6e4e66bc30e6",
+          "b2e1684c6b7c448d995cde4da7d93270"
+        ]
+      }
+    },
+    "ugroups": [
+      "ugroup2",
+      "ugroup3"
+    ]
+  },
+  "7bab0ca4-5152-4b76-867a-f303e16ada7f": {
+    "username": "neeraj",
+    "first_name": "Neeraj",
+    "last_name": "Kanhere",
+    "ctime": 1569361213,
+    "mtime": 1569361213,
+    "monthly_logins": 1,
+    "favorites": {
+      "fgroup3": {
+        "ctime": 1571847667,
+        "mtime": 1571847667,
+        "color": "blue",
+        "cameras": [
+          "1d94d55e0df149febaaf6e4e66bc30e6",
+          "b2e1684c6b7c448d995cde4da7d93270"
+        ]
+      }
+    },
+    "ugroups": [
+      "ugroup3"
+    ]
+  }
+}

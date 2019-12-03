@@ -1,0 +1,125 @@
+{
+  "1d94d55e0df149febaaf6e4e66bc30e6": {
+    "name": "Spill 1",
+    "url": "http://example.com/camera1",
+    "latitude": 33.643456666666665,
+    "longitude": -118.20861333333333,
+    "monthly_accesses": 4,
+    "ctime": 1568315443,
+    "mtime": 1568315443,
+    "atime": 1568315443,
+    "cgroups": [
+      "all",
+      "cgroup1"
+    ],
+    "mjpeg_info": {
+      "url": "http://polbdev.trafficvision.com:8889",
+      "xtra_args": "-re",
+      "source": "/home/tvdev/videos/01.avi",
+      "outputs": [
+        {"h": 240, "xtra_args": "-qscale 1 -r 15"},
+        {"h": 480, "xtra_args": "-qscale 1 -r 5"}
+      ]
+    },
+    "url_mjpeg": "http://34.94.246.41:8889/mjpeg?token=1d94d55e0df149febaaf6e4e66bc30e6"
+  },
+  "b2e1684c6b7c448d995cde4da7d93270": {
+    "name": "Spill 2",
+    "url": "http://example.com/camera1",
+    "latitude": 33.58084,
+    "longitude": -118.28375166666666,
+    "monthly_accesses": 2,
+    "ctime": 1568315443,
+    "mtime": 1568315443,
+    "atime": 1568315443,
+    "cgroups": [
+      "all",
+      "cgroup2"
+    ],
+    "mjpeg_info": {
+      "url": "http://polbdev.trafficvision.com:8889",
+      "xtra_args": "-re",
+      "source": "/home/tvdev/videos/02.avi",
+      "outputs": [
+        {"h": 240, "xtra_args": "-qscale 1 -r 15"},
+        {"h": 480, "xtra_args": "-qscale 1 -r 5"}
+      ]
+    },
+    "url_mjpeg": "http://34.94.246.41:8889/mjpeg?token=b2e1684c6b7c448d995cde4da7d93270"
+  },
+  "6a447de9d10547bda7be621e3f13d37b": {
+    "name": "Spill 3",
+    "url": "http://example.com/camera1",
+    "latitude": 33.582415,
+    "longitude": -118.128495,
+    "monthly_accesses": 4,
+    "ctime": 1568315443,
+    "mtime": 1568315443,
+    "atime": 1568315443,
+    "cgroups": [
+      "all",
+      "cgroup1",
+      "cgroup2"
+    ],
+    "mjpeg_info": {
+      "url": "http://polbdev.trafficvision.com:8889",
+      "xtra_args": "-re",
+      "source": "/home/tvdev/videos/03.avi",
+      "outputs": [
+        {"h": 240, "xtra_args": "-qscale 1 -r 15"},
+        {"h": 480, "xtra_args": "-qscale 1 -r 5"}
+      ]
+    },
+    "url_mjpeg": "http://34.94.246.41:8889/mjpeg?token=6a447de9d10547bda7be621e3f13d37b"
+  },
+  "3613b943dcd64811a22c7877b4d05417": {
+    "name": "Spill 4",
+    "url": "http://example.com/camera1",
+    "latitude": 33.643,
+    "longitude": -118.208,
+    "monthly_accesses": 4,
+    "ctime": 1568315443,
+    "mtime": 1568315443,
+    "atime": 1568315443,
+    "cgroups": [
+      "all",
+      "cgroup2",
+      "cgroup3"
+    ],
+    "mjpeg_info": {
+      "url": "http://polbdev.trafficvision.com:8889",
+      "xtra_args": "-re",
+      "source": "/home/tvdev/videos/04.avi",
+      "outputs": [
+        {"h": 240, "xtra_args": "-qscale 1 -r 15"},
+        {"h": 480, "xtra_args": "-qscale 1 -r 5"}
+      ]
+    },
+    "url_mjpeg": "http://34.94.246.41:8889/mjpeg?token=3613b943dcd64811a22c7877b4d05417"
+  },
+  "0b6995f3ecda4b9a9ef6b23085887790": {
+    "name": "Spill 5",
+    "url": "http://example.com/camera1",
+    "latitude": 33.64345666,
+    "longitude": -118.2086133,
+    "monthly_accesses": 4,
+    "ctime": 1568315443,
+    "mtime": 1568315443,
+    "atime": 1568315443,
+    "cgroups": [
+      "all",
+      "cgroup1",
+      "cgroup3"
+    ],
+    "mjpeg_info": {
+      "url": "http://polbdev.trafficvision.com:8889",
+      "xtra_args": "-re",
+      "source": "/home/tvdev/videos/05.avi",
+      "outputs": [
+        {"h": 240, "xtra_args": "-qscale 1 -r 15"},
+        {"h": 480, "xtra_args": "-qscale 1 -r 5"}
+      ]
+    },
+    "url_mjpeg": "http://34.94.246.41:8889/mjpeg?token=0b6995f3ecda4b9a9ef6b23085887790"
+  }
+}

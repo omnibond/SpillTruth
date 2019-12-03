@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    
+    <title>PoLB Portal Login</title>
+
+    <style>
+        body {
+            width: 100%;
+            height: 100vh;
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+            display: flex;
+            justify-content: center;
+            background-color: white;
+        }
+
+        .center-column {
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            flex-direction: column;
+        }
+
+        .login-dialog {
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+        }
+
+        .text-field {
+            width: 100%;
+            margin: 0 0 10px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .text-field-label {
+            flex-shrink: 1;
+            font-weight: bold;
+            width: 80px;
+            margin-right: 5px;
+        }
+
+        .text-field-input {
+            flex-grow: 1;
+            margin: 0 0 0 10px;
+        }
+
+        .error-field {
+            width: 100%;
+            margin: 0 0 10px 0;
+            display: flex;
+            justify-content: center;
+            color: red;
+            font-weight: bold;
+        }
+
+        .login-button-div {
+            width: 100%;
+            margin: 10px 0 10px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .login-button {
+            flex-grow: 1;
+            cursor: pointer;
+            height: 30px;
+            font-weight: bold;
+            color: white;
+            background-color: #3f51b5;
+        }
+
+        .login-button:hover {
+            background-color: #303f9f;
+        }
+
+        .login-button:disabled {
+            background-color: #0000001f;
+            color: #00000042;
+            box-shadow: none;
+        }
+
+        .login-message {
+            width: 100%;
+            margin: 10px 0 10px 0;
+            text-align: center;
+            font-weight: bold;
+            color: red;
+        }
+
+        .logo-div {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        .logo {
+            max-height: 100%;
+            max-width: 100%;
+            height: 64px;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="center-column">
+        <div class="login-dialog">            
+            <form action="/login" method="post">
+                <!-- {% module xsrf_form_html() %} -->
+                <div class="logo-div">
+                    <img
+                        alt="SPILLTRUTH"
+                        src="./images/logo_inline.png"
+                        class="logo"
+                    />
+                </div>
+
+                <div class="text-field">           
+                    <table>
+                        <tr>
+                            <td><label for="username" class="text-field-label">Username:</label></td>
+                            <td><input type="text" id="username" name="username" class="text-field-input"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="password" class="text-field-label">Password:</label></td>
+                            <td><input type="password" id="password" name="password" class="text-field-input"></td>
+                        </tr>
+                    </table>
+                </div>                
+
+                <div class="login-button-div">
+                    <button type="submit" class="login-button">Login</button>
+                </div>
+                
+            </form>
+
+            {% try %}
+                {% if errorMessage %}
+                    <div class="error-field">
+                        {{ errorMessage }}
+                    </div>
+                {% end %}
+            {% except %}
+            {% end %}
+        </div>
+    </div>
+  </body>
+
+</html>
